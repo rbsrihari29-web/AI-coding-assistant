@@ -18,7 +18,7 @@ own open-source model with LoRA/QLoRA.
 ```
 ai-coding-assistant/
 ├── app.py                        # Gradio chat interface (main entry point)
-├── .env.example                  # Put your free Google API key here
+├── .env                           # Put your free Google API key here
 ├── requirements.txt               # Deps for the app (Gemini path)
 ├── requirements-finetune.txt      # Extra deps only for LoRA fine-tuning (GPU)
 ├── data/
